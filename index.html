@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Porsche</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="icon" href="/Porsche_logo 1.png" type="image/x-icon" sizes="64x16"/>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <img src="Porsche_logo 1.png" alt="Porsche logo" class="logo"/>
+    <div class="center">
+      <img src="image 9.png" alt="porsss">
+      <div class="subtitle" data-i18n="subtitle">ONE OF A KIND</div>
+    </div>
+    <button class="lang-btn">Ru/En</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 data-i18n="hero-title">PORSCHE</h1>
+    <img src="image 2.png" alt="Porsche front"/>
+  </section>
+
+  <!-- HISTORY -->
+  <section class="history">
+    <div>
+      <div class="portrait">
+        <img src="ferdinand.png" alt="Ferdinand Porsche"/>
+        <div class="square"></div>
+      </div>
+      <p class="info" data-i18n="history-text">
+        The history of the new brand began long before the company was founded in 1931.
+        In 1898, being only a 23-year-old enthusiast, Ferdinand Porsche created the first electric car.
+        In 1900, working at Lohner & Co., he introduced the first hybrid car.
+        In 1906 the engineer moved to Daimler, where he introduced the iconic models: S, SS and SSK.
+      </p>
+    </div>
+    <div>
+      <img src="pr2.png" alt="Classic Porsche" class="classic"/>
+    </div>
+  </section>
+
+  <!-- CARS -->
+  <section class="cars">
+    <h3 data-i18n="cars-title">Choose Your Porsche</h3>
+    <div class="car-grid">
+      <a href="car1.html">
+        <div class="car-card">
+          <img src="p911.jpg" alt="911 Carrera"/>
+          <span class="car-name" data-i18n="911-name">911 Carrera</span>
+          <video src="The new 911. The one and always. - Porsche (1080p, h264).mp4" muted loop></video>
+        </div>
+      </a>
+      <a href="car2.html">
+        <div class="car-card">
+          <img src="718-.jpg" alt="718 "/>
+          <span class="car-name" data-i18n="718-name">718 Boxster</span>
+          <video src="The new Porsche 718 Cayman – For the sport of it - Porsche (1080p, h264).mp4" muted loop></video>
+        </div>
+      </a>
+      <a href="car3.html">
+        <div class="car-card">
+          <img src="macan.avif" alt="Cayenne"/>
+          <span class="car-name" data-i18n="macan-name">Cayenne</span>
+          <video src="The new Porsche Cayenne in motion..mp4" muted loop></video>
+        </div>
+      </a>
+      <a href="car4.html">
+        <div class="car-card">
+          <img src="panamera.jpg" alt="Panamera"/>
+          <span class="car-name" data-i18n="panamera-name">Panamera</span>
+          <video src="The new Panamera.mp4" muted loop></video>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4 data-i18n="contacts">Contacts</h4>
+        <p data-i18n="question">Do you have any question?</p>
+        <button class="feedback-btn" data-i18n="feedback-btn">4:44</button>
+      </div>
+      <div>
+        <h4 data-i18n="media">Media</h4>
+        <p data-i18n="social-text">Get in touch with us via social media.</p>
+        <div class="social-icons">
+          <a href="https://t.me/KiRDeZZZ" target="_blank">
+            <img src="Send.png" alt="telegram" width="20">
+          </a>
+          <a href="https://ru.pinterest.com/KiR4KiR/" target="_blank">
+            <img src="Pinterest.png" alt="Pinterest" width="20">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img src="image 12.png" alt="Porsche"/>
+    </div>
+  </footer>
+
+  <!-- Добавляем скрипт с переводами -->
+  <script>
+// Объекты с переводами
+const translations = {
+  en: {
+    // Hero
+    "subtitle": "ONE OF A KIND",
+    "hero-title": "PORSCHE",
+    
+    // History section
+    "history-text": "The history of the new brand began long before the company was founded in 1931. In 1898, being only a 23-year-old enthusiast, Ferdinand Porsche created the first electric car. In 1900, working at Lohner & Co., he introduced the first hybrid car. In 1906 the engineer moved to Daimler, where he introduced the iconic models: S, SS and SSK.",
+    
+    // Cars section
+    "cars-title": "Choose Your Porsche",
+    "911-name": "911 Carrera", 
+    "718-name": "718 Spider",
+    "macan-name": "Cayenne",
+    "panamera-name": "Panamera",
+    
+    // Footer
+    "contacts": "Contacts",
+    "question": "Do you have any question?",
+    "feedback-btn": "4:44",
+    "media": "Media",
+    "social-text": "Get in touch with us via social media."
+  },
+  ru: {
+    // Hero
+    "subtitle": "УНИКАЛЬНЫЙ",
+    "hero-title": "PORSCHE",
+    
+    // History section
+    "history-text": "История нового бренда началась задолго до основания компании в 1931 году. В 1898 году, будучи всего лишь 23-летним энтузиастом, Фердинанд Порше создал первый электромобиль. В 1900 году, работая в Lohner & Co., он представил первый гибридный автомобиль. В 1906 году инженер перешел в Daimler, где представил культовые модели: S, SS и SSK.",
+    
+    // Cars section
+    "cars-title": "Выбери свой Porsche",
+    "911-name": "911 Каррера",
+    "718-name": "718 Спайдер", 
+    "macan-name": "Кайен",
+    "panamera-name": "Панамера",
+    
+    // Footer
+    "contacts": "Контакты",
+    "question": "Есть вопросы?",
+    "feedback-btn": "4:44",
+    "media": "Соцсети",
+    "social-text": "Свяжитесь с нами через соцсети."
+  }
+};
+
+// Текущий язык
+let currentLanguage = 'en';
+
+// Функция смены языка
+function switchLanguage() {
+  // Переключаем язык
+  currentLanguage = currentLanguage === 'en' ? 'ru' : 'en';
+  
+  // Обновляем все тексты на странице
+  updateContent();
+  
+  // Сохраняем в localStorage
+  localStorage.setItem('porsche-lang', currentLanguage);
+  
+  // Обновляем текст кнопки
+  document.querySelector('.lang-btn').textContent = currentLanguage === 'en' ? 'Ru/En' : 'En/Ru';
+  
+  // Меняем язык всей страницы
+  document.documentElement.lang = currentLanguage;
+}
+
+// Функция обновления контента
+function updateContent() {
+  const lang = translations[currentLanguage];
+  
+  // Обновляем все элементы с data-i18n атрибутом
+  document.querySelectorAll('[data-i18n]').forEach(element => {
+    const key = element.getAttribute('data-i18n');
+    if (lang[key]) {
+      element.textContent = lang[key];
+    }
+  });
+}
+
+// При загрузке страницы
+document.addEventListener('DOMContentLoaded', function() {
+  // Проверяем сохраненный язык
+  const savedLang = localStorage.getItem('porsche-lang');
+  if (savedLang) {
+    currentLanguage = savedLang;
+  }
+  
+  // Инициализируем контент
+  updateContent();
+  
+  // Устанавливаем правильный текст кнопки
+  document.querySelector('.lang-btn').textContent = currentLanguage === 'en' ? 'Ru/En' : 'En/Ru';
+  
+  // Вешаем обработчик на кнопку
+  document.querySelector('.lang-btn').addEventListener('click', switchLanguage);
+});
+</script>
+<script>
+// Функция для управления видео при наведении
+function initCarVideos() {
+  const carCards = document.querySelectorAll('.car-card');
+  
+  carCards.forEach(card => {
+    const video = card.querySelector('video');
+    const img = card.querySelector('img');
+    
+    // Предзагрузка видео
+    video.preload = 'metadata';
+    
+    card.addEventListener('mouseenter', function() {
+      // Скрываем изображение
+      img.style.opacity = '0';
+      
+      // Показываем и запускаем видео
+      video.style.opacity = '1';
+      video.play().catch(error => {
+        console.log('Автовоспроизведение заблокировано:', error);
+      });
+    });
+    
+    card.addEventListener('mouseleave', function() {
+      // Показываем изображение
+      img.style.opacity = '1';
+      
+      // Скрываем и останавливаем видео
+      video.style.opacity = '0';
+      video.pause();
+      video.currentTime = 0; // Перематываем в начало
+    });
+    
+    // Обработка конца видео (перезапуск)
+    video.addEventListener('ended', function() {
+      video.currentTime = 0;
+      video.play();
+    });
+  });
+}
+
+// Инициализация при загрузке страницы
+document.addEventListener('DOMContentLoaded', function() {
+  initCarVideos();
+});
+</script>
+</body>
+</html>

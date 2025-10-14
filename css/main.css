@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GothamPro-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GothamPro-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+.custom-font {
+    font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

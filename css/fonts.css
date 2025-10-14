@@ -1,0 +1,36 @@
+/* === Fonts (drop your font files into fonts/ and update filenames if necessary) ===
+   Required files (recommended):
+   fonts/GothamPro-Light.woff2
+   fonts/GothamPro-Bold.woff2
+   fonts/Theater-Regular.woff2  (for subtitle if you use it)
+   fonts/AKONY-Regular.woff2    (for hero oversized text if used)
+   Update these URLs if you use different formats (.woff/.ttf).
+*/
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("fonts/GothamPro-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("fonts/GothamPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Theater";
+  src: url("fonts/Theater-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AKONY";
+  src: url("fonts/AKONY-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

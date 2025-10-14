@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Porsche — 911 Carrera</title>
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="icon" href="/Porsche_logo 1.png" type="image/x-icon">
+</head>
+<body>
+<header>
+  <a href="index.html">
+  <button class="left">
+    <img src="Porsche_logo 1.png" alt="Porsche logo" class="logo"/>
+  </button>
+  </a>
+    <div class="center">
+      <img src="image 9.png" alt="porsss">
+    </div>
+    <!-- Добавляем кнопку переключения языка -->
+    <button class="lang-btn" onclick="switchLanguage()">En/Ru</button>
+  </header>
+
+  <!-- HERO / SPEC -->
+  <main class="page">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="title-row">
+          <h1 class="title" data-i18n="title">718 Spider</h1>
+        </div>
+        
+        <div class="spec-list" role="list">
+          <div class="spec-item" role="listitem">
+            <div class="spec-big">3.4s</div>
+            <div class="spec-note" data-i18n="acceleration">Acceleration 0 - 100 km/h with Sport Chrono Package</div>
+          </div>
+
+          <div class="spec-item" role="listitem">
+            <div class="spec-big">368 <span class="unit">kW</span> / 500 <span class="unit">PS</span></div>
+            <div class="spec-note" data-i18n="power">Power (kW) / Power (PS)</div>
+          </div>
+
+          <div class="spec-item" role="listitem">
+            <div class="spec-big">308<span class="unit">km/h</span></div>
+            <div class="spec-note" data-i18n="top-speed">Top speed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="por718.png" alt="Porsche 911 front" class="car-front" />
+      </div>
+    </section>
+
+    <!-- PERFECTION block -->
+    <section class="perfection">
+      <h2 class="section-title" data-i18n="perfection-title">PERFECTION</h2>
+
+      <div class="perfection-grid">
+        <div class="left-visual">
+          <img src="womenPorche.png" alt="Dancer & Porsche" class="img-large" />
+        </div>
+
+        <div class="right-visual">
+          <h3 class="lead-title" data-i18n="lead-title" data-i18n-html>The one<br/>and always.</h3>
+          <p class="lead-paragraph" data-i18n="lead-paragraph">
+            Anyone who dreams of a Porsche usually has an image in their mind:
+            the 911 has been the epitome of an exciting, powerful sports car with
+            day-to-day usability for 60 years. Take a seat behind the wheel of the
+            new 911 and become part of a unique community.
+          </p>
+
+          <!-- small image that overlaps the main visual -->
+          <div class="img-small-wrap">
+            <img src="LuxPorc.png" alt="Porsche rear" class="img-small" />
+          </div>
+        </div>
+      </div>
+
+      <div class="below-text">
+        <h3 class="below-title" data-i18n="below-title">Just you and the car.</h3>
+        <p class="below-sub" data-i18n="below-sub">Feel the pleasure of every moment. Road, You and the Car.</p>
+      </div>
+    </section>
+
+    <!-- DRIVE block (added content) -->
+    <section class="drive">
+      <h2 class="section-title" data-i18n="drive-title">DRIVE</h2>
+      <p class="drive-intro" data-i18n="drive-intro">
+        More than pure numbers: the 911 is an experience — emotion, precision and control.
+        Below are three core pillars that make the feeling unique.
+      </p>
+
+      <div class="drive-cards">
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <h4 data-i18n="performance-title">Performance</h4>
+          <p data-i18n="performance-desc">Engine precision, razor-sharp handling and immediate throttle response for thrilling driving.</p>
+        </article>
+
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <h4 data-i18n="design-title">Design</h4>
+          <p data-i18n="design-desc">Timeless silhouette, lightweight materials and craftsmanship that celebrates every detail.</p>
+        </article>
+
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <h4 data-i18n="tech-title">Technology</h4>
+          <p data-i18n="tech-desc">Driver-centric systems, connected services and safety tech that enhance every kilometre.</p>
+        </article>
+      </div>
+      <div class="cta-wrap">
+        <a href="Porsche911.html">
+        <button class="order-btn" data-i18n="order-btn">Place an order</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4 data-i18n="contacts">Contacts</h4>
+        <p data-i18n="question">Do you have any question?</p>
+        <button class="feedback-btn" data-i18n="feedback-btn">4:44</button>
+      </div>
+      <div>
+        <h4 data-i18n="media">Media</h4>
+        <p data-i18n="social-text">Get in touch with us via social media.</p>
+        <div class="social-icons">
+          <a href="https://t.me/KiRDeZZZ" target="_blank">
+            <img src="Send.png" alt="telegram" width="20">
+          </a>
+          <a href="https://ru.pinterest.com/KiR4KiR/" target="_blank">
+            <img src="Pinterest.png" alt="Pinterest" width="20">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img src="image 12.png" alt="Porsche"/>
+    </div>
+  </footer>
+
+  <!-- Скрипт переводов -->
+  <script>
+// Объекты с переводами для страницы 911
+const translations = {
+  en: {
+    // Hero section
+    "title": "718 Spider",
+    "acceleration": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "power": "Power (kW) / Power (PS)",
+    "top-speed": "Top speed",
+    
+    // Perfection section
+    "perfection-title": "PERFECTION",
+    "lead-title": "The one<br/>and always.",
+    "lead-paragraph": "Anyone who dreams of a Porsche usually has an image in their mind: the 911 has been the epitome of an exciting, powerful sports car with day-to-day usability for 60 years. Take a seat behind the wheel of the new 911 and become part of a unique community.",
+    "below-title": "Just you and the car.",
+    "below-sub": "Feel the pleasure of every moment. Road, You and the Car.",
+    
+    // Drive section
+    "drive-title": "DRIVE",
+    "drive-intro": "More than pure numbers: the 911 is an experience — emotion, precision and control. Below are three core pillars that make the feeling unique.",
+    "performance-title": "Performance",
+    "performance-desc": "Engine precision, razor-sharp handling and immediate throttle response for thrilling driving.",
+    "design-title": "Design", 
+    "design-desc": "Timeless silhouette, lightweight materials and craftsmanship that celebrates every detail.",
+    "tech-title": "Technology",
+    "tech-desc": "Driver-centric systems, connected services and safety tech that enhance every kilometre.",
+    "order-btn": "Place an order",
+    
+    // Footer
+    "contacts": "Contacts",
+    "question": "Do you have any question?",
+    "feedback-btn": "4:44",
+    "media": "Media",
+    "social-text": "Get in touch with us via social media."
+  },
+  ru: {
+    // Hero section
+    "title": "718 Спайдер",
+    "acceleration": "Разгон 0-100 км/ч с пакетом Sport Chrono",
+    "power": "Мощность (кВт) / Мощность (л.с.)",
+    "top-speed": "Максимальная скорость",
+    
+    // Perfection section
+    "perfection-title": "СОВЕРШЕНСТВО",
+    "lead-title": "Единственный<br/>и навсегда.",
+    "lead-paragraph": "У каждого, кто мечтает о Porsche, обычно есть образ в голове: 911 уже 60 лет является воплощением захватывающего, мощного спортивного автомобиля с повседневной практичностью. Сядьте за руль нового 911 и станьте частью уникального сообщества.",
+    "below-title": "Только ты и автомобиль.",
+    "below-sub": "Почувствуйте удовольствие каждого момента. Дорога, Ты и Автомобиль.",
+    
+    // Drive section
+    "drive-title": "ВОЖДЕНИЕ", 
+    "drive-intro": "Не просто цифры: 911 — это опыт, эмоции, точность и контроль. Вот три основные составляющие, которые делают это ощущение уникальным.",
+    "performance-title": "Производительность",
+    "performance-desc": "Точность двигателя, острая управляемость и мгновенная реакция на газ для захватывающей езды.",
+    "design-title": "Дизайн",
+    "design-desc": "Вне времени силуэт, легкие материалы и мастерство, воспевающее каждую деталь.",
+    "tech-title": "Технологии",
+    "tech-desc": "Ориентированные на водителя системы, подключенные сервисы и технологии безопасности, улучшающие каждый километр.",
+    "order-btn": "Оформить заказ",
+    
+    // Footer
+    "contacts": "Контакты",
+    "question": "Есть вопросы?",
+    "feedback-btn": "4:44",
+    "media": "Соцсети", 
+    "social-text": "Свяжитесь с нами через соцсети."
+  }
+};
+
+let currentLanguage = 'en';
+
+function switchLanguage() {
+  currentLanguage = currentLanguage === 'en' ? 'ru' : 'en';
+  updateContent();
+  localStorage.setItem('porsche-lang', currentLanguage);
+  document.documentElement.lang = currentLanguage;
+}
+
+function updateContent() {
+  const lang = translations[currentLanguage];
+  
+  document.querySelectorAll('[data-i18n]').forEach(element => {
+    const key = element.getAttribute('data-i18n');
+    if (lang[key]) {
+      // Для элементов с HTML (например, с <br/>)
+      if (element.hasAttribute('data-i18n-html')) {
+        element.innerHTML = lang[key];
+      } else {
+        element.textContent = lang[key];
+      }
+    }
+  });
+}
+
+// Инициализация
+document.addEventListener('DOMContentLoaded', function() {
+  const savedLang = localStorage.getItem('porsche-lang');
+  if (savedLang) {
+    currentLanguage = savedLang;
+    document.documentElement.lang = currentLanguage;
+  }
+  updateContent();
+});
+</script>
+</body>
+</html>
