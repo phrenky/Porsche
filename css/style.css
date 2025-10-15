@@ -48,7 +48,7 @@ body {
 }
 @font-face {
   font-family: "AKONY";
-  src: url("fonts/AKONY-Regular.woff2") format("woff2");
+  src: url("fonts/AKONY.ttf") format("ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -74,7 +74,7 @@ header .center {
 }
 
 header .subtitle { /* текст one of a kind */
-  font-family: "Theater", serif;
+  
   font-size: 15px; /*размер текста*/
   margin-top: 11px; /*свойство в CSS, которое определяет внешний отступ сверху у элемента*/
   color: #444;
@@ -104,7 +104,6 @@ header .logo {
   padding: 200px; /*внут отступы от объекта*/
 }
 .hero h1 { /* PORSCHE за машиной в начале сайта */
-  font-family: "AKONY", sans-serif;
   font-size: 140px;
   color: rgba(0,0,0,0.08);
   position: absolute; /* Элемент удаляется из обычного потока документа, 
@@ -129,7 +128,6 @@ header .logo {
 
 /* History  зеленая машина*/ 
 .history {
-  font-family: Gotham Pro;
   font-size: 16px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -161,7 +159,6 @@ header .logo {
 
 /* Cars */
 .cars {
-  font-family: Gotham Pro;
   font-size: 20px;
   text-align: center;
   margin: 60px auto;
@@ -242,7 +239,6 @@ body {
 
 /* Footer */
 footer {
-  font-family: Gotham Pro;
   background: #000;
   color: #fff;
   padding: 40px 20px;
