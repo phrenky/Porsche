@@ -104,6 +104,7 @@ header .logo {
   padding: 200px; /*внут отступы от объекта*/
 }
 .hero h1 { /* PORSCHE за машиной в начале сайта */
+  font-family: 'AKONY', sans-serif;
   font-size: 140px;
   color: rgba(0,0,0,0.08);
   position: absolute; /* Элемент удаляется из обычного потока документа, 
